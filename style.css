@@ -167,12 +167,74 @@ body {
   align-items: center;
   justify-content: center;
 }
-.brands-list {
-  list-style: none;
+
+/**************************/
+/* AGENCIES SECTION */
+/**************************/
+
+.agencies-section {
+  background-color: #102145;
+  height: 60rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 5.5rem;
 }
-.brand-img {
+
+/**************************/
+/* PANEL SECTION */
+/**************************/
+
+.panel-section {
+  background-color: #102145;
+  height: 60rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.panel-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4.2rem;
+
+  font-family: "Work Sans", sans-serif;
+}
+.panel-img {
+}
+.panel-box {
+}
+
+.panel-title {
+  font-size: 5.8rem;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+.panel-subtitle {
+  font-size: 2.3rem;
+  font-weight: 500;
+  margin-bottom: 3.2rem;
+  padding-left: 1rem;
+}
+
+.panel-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2.2rem;
+}
+
+.panel-buttons button {
+  background: none;
+  border: none;
+  color: #08b8ea;
+  background-color: #253c6c;
+  padding: 1.25rem 1.35rem;
+  border-radius: 0.66rem;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  gap: 9.6rem;
 }
