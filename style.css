@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  color: #000;
+  /* background-color: #000; */
+}
+
+/**************************/
+/* HEADER SECTION */
+/**************************/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.6rem;
+  height: 9vh;
+  width: 100%;
+  transition: all 0.3s ease;
+  position: relative;
+  background-color: #102145;
+}
+
+.logo:link,
+.logo:visited {
+  display: inline-block;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+}
+.logo:hover,
+.logo:active {
+  color: #9faece;
+}
+
+.hero-nav {
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.7rem;
+  font-family: "Work Sans", sans-serif;
+  transition: all 0.3s;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #9faece;
+}
+
+/**************************/
+/* HERO SECTION */
+/**************************/
+.hero-section {
+  color: #fff;
+  background-color: #102145;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 91vh;
+}
+
+.hero {
+  max-width: 70rem;
+}
+
+.hero-icon {
+  width: 4.1rem;
+  height: 4.1rem;
+  margin-bottom: 4.8rem;
+}
+
+.primary-heading {
+  font-size: 7rem;
+  font-weight: 700;
+  margin-bottom: 4.8rem;
+}
+
+.hero-description {
+  font-size: 2.3rem;
+  line-height: 1.6;
+  font-weight: 400;
+  margin-bottom: 4.8rem;
+}
+
+/**************************/
+/* PROJECTS SECTION */
+/**************************/
+
+.projects-section {
+  background-color: #fff;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2.4rem;
+}
+.project-box {
+  cursor: pointer;
+  position: relative;
+}
+
+.project-img {
+  width: 100%;
+}
+
+.project-box:hover .project-text--box {
+  display: flex;
+}
+
+.project-text--box {
+  position: absolute;
+  inset: 0;
+  background-color: rgb(16, 33, 69, 0.6);
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: none;
+  transition: all 0.3s ease-in;
+}
+.project-title {
+  color: #fff;
+  font-size: 2.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+.project-text {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  opacity: 0.5;
+}
