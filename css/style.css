@@ -46,6 +46,25 @@
   color: #9faece;
 }
 
+/* MOBILE */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  /* display: none; */
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #fff;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
 /**************************/
 /* HERO SECTION */
 /**************************/
@@ -177,6 +196,7 @@
   font-family: "Work Sans", sans-serif;
 }
 .panel-img {
+  width: 100%;
 }
 .panel-box {
 }
