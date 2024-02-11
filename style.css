@@ -215,7 +215,7 @@ body {
   font-size: 2.3rem;
   font-weight: 500;
   margin-bottom: 3.2rem;
-  padding-left: 1rem;
+  padding-left: 0.5rem;
 }
 
 .panel-buttons {
@@ -225,9 +225,12 @@ body {
   gap: 2.2rem;
 }
 
-.panel-buttons button {
-  background: none;
-  border: none;
+.panel-btn:link,
+.panel-btn:visited {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.75rem;
+  font-weight: 400;
+  text-decoration: none;
   color: #08b8ea;
   background-color: #253c6c;
   padding: 1.25rem 1.35rem;
@@ -237,4 +240,79 @@ body {
   display: flex;
   align-items: center;
   gap: 9.6rem;
+  transition: all 0.3s;
+}
+
+.panel-btn:hover,
+.panel-btn:active {
+  background-color: #2a447b;
+  /* background-color: #fff; */
+}
+
+/**************************/
+/* FOOTER SECTION */
+/**************************/
+
+.footer-section {
+  background-color: #0a1a3d;
+  padding: 5rem 2.5rem;
+}
+
+.footer-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 8rem;
+}
+.footer-logo {
+}
+
+.copyright-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copyright-text {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: rgb(255, 255, 255, 0.3);
+}
+
+.social-icons--list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.3rem;
+
+  list-style: none;
+}
+
+.social-icon:link,
+.social-icon:visited {
+  color: rgb(255, 255, 255, 0.3);
+  background-color: #102145;
+  font-size: 1.6rem;
+  padding: 0.78rem 0.8rem;
+  border-radius: 4px;
+  transition: all 0.3s;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icon:hover,
+.social-icon:active {
+  color: #fff;
+  background-color: #253c6c;
+  font-size: 1.6rem;
+  padding: 0.78rem 0.8rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
 }
