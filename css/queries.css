@@ -1,0 +1,63 @@
+/**************************/
+/* BELOW 908px (Tablets) */
+/**************************/
+
+/* @media (max-width: 48em) { */
+@media (max-width: 56.75em) {
+  .hero {
+    padding: 0 4rem;
+  }
+
+  .projects-section {
+    grid-template-columns: 1fr;
+    gap: 2.4rem;
+    padding: 4rem;
+  }
+
+  .container {
+    max-width: 51.5rem;
+    padding: 0 4rem;
+  }
+
+  .logos-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .secondary-heading {
+    text-align: center;
+  }
+  /*  */
+  .panel-section {
+    height: 90rem;
+  }
+
+  .panel-content {
+    flex-direction: column;
+    gap: 5.5rem;
+  }
+
+  .panel-title {
+    text-align: center;
+    margin-bottom: 3.2rem;
+  }
+
+  .panel-subtitle {
+    text-align: center;
+    margin-bottom: 5.7rem;
+  }
+
+  .panel-buttons {
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+
+  /*  */
+
+  .footer-nav {
+    margin-bottom: 8rem;
+  }
+
+  .nav-list {
+    gap: 2.2rem;
+  }
+}
