@@ -10,7 +10,6 @@ btnNavEl.addEventListener("click", function () {
     document.documentElement.style.overflowY = "hidden";
   else document.documentElement.style.overflowY = "auto";
 
-  console.log(document.html);
   console.log("Humberger button click!");
 });
 
