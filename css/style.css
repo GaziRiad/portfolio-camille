@@ -5,7 +5,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3.6rem;
+  padding: 2.6rem;
   height: 9vh;
   width: 100%;
   transition: all 0.3s ease;
@@ -52,7 +52,7 @@
   background: none;
   cursor: pointer;
 
-  /* display: none; */
+  display: none;
 }
 
 .icon-mobile-nav {

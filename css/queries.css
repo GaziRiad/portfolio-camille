@@ -8,6 +8,14 @@
     display: none;
   }
 
+  .btn-mobile-nav {
+    display: block;
+  }
+
+  .hero-nav {
+    display: none;
+  }
+
   .hero {
     padding: 0 4rem;
   }
@@ -16,6 +24,13 @@
     grid-template-columns: 1fr;
     gap: 2.4rem;
     padding: 4rem;
+  }
+
+  .project-title {
+    font-size: 2.2rem;
+  }
+  .project-text {
+    font-size: 1.4rem;
   }
 
   .container {
@@ -69,6 +84,63 @@
 
   .nav-list {
     gap: 2.2rem;
+  }
+
+  /* MOBILE NAVIGATION */
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+
+  .hero-nav {
+    /* background-color: rgba(255, 255, 255, 0.9); */
+    background-color: rgb(37, 60, 108, 0.9);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    inset: 0;
+    height: 100vh;
+    transform: translateX(100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in;
+
+    /* 1) Hide it visually */
+    opacity: 0;
+
+    /* 2) Make it unaccessible to mouse and keyboard */
+    pointer-events: none;
+
+    /* 3) Hide it from screen readers */
+    visibility: hidden;
+  }
+
+  .nav-open .hero-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .hero-nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .hero-nav-list .nav-link:link,
+  .hero-nav-list .nav-link:visited {
+    font-weight: 500;
+    font-size: 2.3rem;
   }
 }
 

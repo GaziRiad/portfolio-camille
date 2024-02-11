@@ -78,7 +78,8 @@ body {
   padding: 0 2.6rem;
 }
 
-.nav-list {
+.hero-nav-list,
+.footer-nav-list {
   list-style: none;
   display: flex;
   align-items: center;
