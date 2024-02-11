@@ -78,7 +78,7 @@ body {
   padding: 0 2.6rem;
 }
 
-.hero-nav-list,
+.header-nav-list,
 .footer-nav-list {
   list-style: none;
   display: flex;
