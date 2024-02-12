@@ -8,6 +8,10 @@
     display: block;
   }
 
+  .primary-heading {
+    font-size: 5.6rem;
+  }
+
   .hero {
     padding: 0 4rem;
   }
@@ -149,6 +153,10 @@
 
   .hero-common {
     margin-bottom: 8rem;
+  }
+
+  .about-section {
+    margin-top: -12rem !important;
   }
 }
 
