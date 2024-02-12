@@ -134,6 +134,15 @@
   }
 
   /* OTHER PAGES */
+  .header-white .nav-link:link,
+  .header-white .nav-link:visited {
+    color: #fff;
+  }
+  .header-white .nav-link:hover,
+  .header-white .nav-link:active {
+    color: #9faece;
+  }
+
   .hero-common-section {
     min-height: 50vh;
   }
@@ -220,6 +229,10 @@
     font-size: 3.2rem;
   }
 
+  .agencies-section {
+    height: 60rem;
+  }
+
   .panel-img {
     width: 100%;
     padding: 0 2.2rem;
@@ -232,7 +245,7 @@
   /* OTHER PAGES */
 
   .hero-common-title {
-    font-size: 4rem;
+    font-size: 3.8rem;
   }
 
   .hero-common-description {

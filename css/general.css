@@ -47,6 +47,7 @@ Large: 1.8
 --- 06 BORDER-RADIUS
  6.6px 
  4px
+ 10px
 
 */
 
@@ -113,4 +114,11 @@ body {
 
 .logos-list img {
   width: 10.6rem;
+}
+
+.text-link {
+  font-size: 2.4rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: #08b8ea;
 }

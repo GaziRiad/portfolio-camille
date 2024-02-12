@@ -14,3 +14,25 @@ btnNavEl.addEventListener("click", function () {
 });
 
 ///////////////////////////////////////////////////////////
+
+const copyEmailBtn = document.querySelector(".contact-btn");
+
+copyEmailBtn.addEventListener("click", function () {
+  const tempTextArea = document.createElement("textarea");
+  tempTextArea.value = "hello@camillebrunette.com";
+
+  // Append the textarea to the document
+  document.body.appendChild(tempTextArea);
+
+  // Select the text inside the textarea
+  tempTextArea.select();
+
+  // Execute the 'copy' command to copy the selected text
+  document.execCommand("copy");
+
+  // Remove the temporary textarea from the document
+  document.body.removeChild(tempTextArea);
+
+  // Optionally, provide user feedback (e.g., alert or change button text)
+  alert("Email copied to clipboard!");
+});
