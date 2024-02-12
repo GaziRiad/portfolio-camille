@@ -6,7 +6,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 2.6rem;
-  height: 9vh;
+  /* height: 9vh; */
+  height: 8rem;
   width: 100%;
   transition: all 0.3s ease;
   position: relative;
@@ -77,7 +78,8 @@
   justify-content: center;
   align-items: center;
 
-  height: 91vh;
+  /* height: 91vh; */
+  height: 94.3rem;
 }
 
 .hero {

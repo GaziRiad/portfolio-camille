@@ -138,6 +138,11 @@
 /**************************/
 
 @media (max-width: 34em) {
+  .hero-section {
+    /* height: 91vh; */
+    height: 84.3rem;
+  }
+
   .primary-heading {
     font-size: 4rem;
     margin-bottom: 3.6rem;
