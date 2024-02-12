@@ -399,17 +399,19 @@
   line-height: 1.4;
 }
 
-.about-section {
+.about-hero {
   min-height: 10vh !important;
-  max-width: 66.5rem;
-  margin: 0 auto;
-
   padding: 0 2.6rem;
-  /* margin-bottom: 12rem; */
 }
 
-.about-section div {
+.about-hero div {
   margin-bottom: 4rem !important;
+}
+
+.about-section {
+  max-width: 66.5rem;
+  padding: 0 2.6rem;
+  margin-bottom: 12rem;
 }
 
 .about-paragraphs {
