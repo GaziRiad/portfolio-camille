@@ -196,7 +196,7 @@
   font-family: "Work Sans", sans-serif;
 }
 .panel-img {
-  width: 100%;
+  max-width: 35.5rem;
 }
 .panel-box {
 }

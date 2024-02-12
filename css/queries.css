@@ -194,3 +194,22 @@
     gap: 4.4rem;
   }
 }
+
+/**************************/
+/* BELOW 450px (Phones) */
+/**************************/
+
+@media (max-width: 28.125em) {
+  .secondary-heading {
+    font-size: 3.2rem;
+  }
+
+  .panel-img {
+    width: 100%;
+    padding: 0 2.2rem;
+  }
+
+  .footer-nav-list {
+    gap: 2.8rem;
+  }
+}
