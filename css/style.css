@@ -79,7 +79,7 @@
   align-items: center;
 
   /* height: 91vh; */
-  height: 94.3rem;
+  height: 80vh;
 }
 
 .hero {
@@ -313,4 +313,112 @@
   align-items: center;
   justify-content: center;
   border-radius: 4px;
+}
+
+/* ///////////////////// */
+/* PORTFOLIO & a  ABOUT & CONTACT PAGES */
+/* ///////////////////// */
+
+.header-white {
+  background-color: #fff;
+}
+
+.header-white .nav-link:link,
+.header-white .nav-link:visited {
+  color: #102145;
+}
+
+.header-white .nav-link:hover,
+.header-white .nav-link:active {
+  color: #9faece;
+}
+
+.header-white .logo:link,
+.header-white .logo:visited {
+  color: #102145;
+}
+.header-white .logo:hover,
+.header-white .logo:active {
+  color: #9faece;
+}
+
+.header-white .icon-mobile-nav {
+  color: #102145;
+}
+
+.hero-common-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+}
+
+.hero-common {
+  max-width: 66.5rem;
+
+  margin-top: 16.9rem;
+  margin-bottom: 12.9rem;
+  padding: 0 2.6rem;
+}
+
+.hero-common-title {
+  font-family: "Work Sans", sans-serif;
+  transition: all 0.3s;
+  font-size: 6rem;
+  font-weight: 700;
+  margin-bottom: 4.8rem;
+  text-transform: capitalize;
+}
+.hero-common-description {
+  font-size: 2.6rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.hero-common-paragraphs {
+  font-size: 1.9rem;
+  font-weight: 400;
+  line-height: 1.6;
+  margin: 4.8rem 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2.4rem;
+}
+
+.skills-box {
+}
+
+.skills-box {
+}
+
+.skills-title {
+  font-size: 2.6rem;
+  font-weight: 400;
+  margin-bottom: 2.6rem;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+
+  list-style: none;
+  margin-bottom: 7.6rem;
+}
+
+.skills-list li {
+  font-size: 1.9rem;
+  font-weight: 400;
+}
+
+.hero-common--img {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+    rgba(0, 0, 0, 0.07) 0px 16px 16px;
 }

@@ -104,6 +104,7 @@
     opacity: 0;
     pointer-events: none;
     visibility: hidden;
+    z-index: 999;
   }
 
   .nav-open .header-nav {
@@ -138,11 +139,6 @@
 /**************************/
 
 @media (max-width: 34em) {
-  .hero-section {
-    /* height: 91vh; */
-    height: 84.3rem;
-  }
-
   .primary-heading {
     font-size: 4rem;
     margin-bottom: 3.6rem;
@@ -198,6 +194,11 @@
     flex-direction: column-reverse;
     gap: 4.4rem;
   }
+
+  /* OTHER PAGES */
+  /* .hero-common-section div {
+    padding: 0 2.6rem;
+  } */
 }
 
 /**************************/
@@ -216,5 +217,15 @@
 
   .footer-nav-list {
     gap: 2.8rem;
+  }
+
+  /* OTHER PAGES */
+
+  .hero-common-title {
+    font-size: 4rem;
+  }
+
+  .hero-common-description {
+    font-size: 2.3rem;
   }
 }
