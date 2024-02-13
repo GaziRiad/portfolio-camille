@@ -7,8 +7,6 @@ const sectionHeroEl =
 
 const allSections = document.querySelectorAll("section, footer");
 
-const projectImgs = document.querySelectorAll("img[data-src]");
-
 const copyEmailBtn = document.querySelector(".contact-btn");
 
 const footerLogo = document.getElementById("footerImg");
@@ -112,24 +110,3 @@ allSections.forEach((section) => {
 });
 
 //////////////////////
-
-//////////////////////
-// Lazy img loading (for a great performance)
-
-const imgLazyLoading = function (entries, observer) {
-  const [entry] = entries;
-
-  // Guard clause: otherwise the first target would appear without even being intersected
-  if (!entry.isIntersecting) return;
-
-  entry.target.src = entry.target.dataset.src;
-  entry.target.addEventListener("load", function () {
-    entry.target.classList.remove("lazy-img");
-  });
-  observer.unobserve(entry.target);
-};
-const imgObserver = new IntersectionObserver(imgLazyLoading, {
-  root: null,
-  threshold: 0,
-});
-projectImgs.forEach((img) => imgObserver.observe(img));
