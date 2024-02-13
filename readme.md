@@ -68,4 +68,6 @@
 
 9 - Overall, even without this the code is self explanatory.
 
+10 - If you want to stop scrolling animations, just comment the code of that feature from javascript file.
+
 See you next time 👋
