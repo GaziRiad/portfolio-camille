@@ -287,6 +287,9 @@
 
   .details-box .tag-box {
     width: 100%;
+    justify-content: flex-start;
+    margin: 0;
+    margin-bottom: 6.8rem;
   }
 
   .text-box {
@@ -302,6 +305,10 @@
 
   .double-imgs img {
     margin-bottom: 0;
+  }
+
+  .template-portfolio--title {
+    font-size: 3.2rem;
   }
 }
 
