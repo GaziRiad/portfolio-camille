@@ -158,6 +158,21 @@
   .about-section {
     margin-bottom: 4rem;
   }
+
+  /* //////////////////////// */
+  /* TEMPLATE PAGE */
+  /* //////////////////////// */
+
+  .template-hero-section .hero-common-description {
+    margin-bottom: 5.4rem;
+  }
+
+  .template-hero--line {
+    width: 98%;
+    height: 1px;
+    background-color: rgba(34, 34, 34, 0.1);
+    margin-bottom: 6.4rem;
+  }
 }
 
 /**************************/
@@ -226,6 +241,25 @@
   .hero-common-title {
     margin-bottom: 2.4rem;
   }
+
+  /* //////////////////////// */
+  /* TEMPLATE PAGE */
+  /* //////////////////////// */
+
+  .job-details {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    row-gap: 2.4rem;
+  }
+
+  .job-experience {
+    grid-row: 2 / 2;
+  }
+
+  .job-year {
+    margin-top: 3.2rem;
+  }
 }
 
 /**************************/
@@ -254,6 +288,7 @@
 
   .hero-common-title {
     font-size: 3.8rem;
+    line-height: 50px;
   }
 
   .hero-common-description {

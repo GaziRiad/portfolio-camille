@@ -28,9 +28,6 @@
   color: #9faece;
 }
 
-.header-nav {
-}
-
 .nav-link:link,
 .nav-link:visited {
   display: inline-block;
@@ -156,7 +153,6 @@
   color: #fff;
   font-size: 2.8rem;
   font-weight: 700;
-  text-transform: uppercase;
   margin-bottom: 2rem;
 }
 .project-text {
@@ -216,8 +212,6 @@
 }
 .panel-img {
   max-width: 35.5rem;
-}
-.panel-box {
 }
 
 .panel-title {
@@ -379,10 +373,8 @@
 
 .hero-common {
   max-width: 66.5rem;
-
   margin-top: 16.9rem;
   margin-bottom: 12.9rem;
-  /* padding: 0 2.6rem; */
 }
 
 .hero-common-title {
@@ -390,6 +382,7 @@
   transition: all 0.3s;
   font-size: 6rem;
   font-weight: 700;
+  line-height: 72px;
   margin-bottom: 3.2rem;
   text-transform: capitalize;
 }
@@ -479,4 +472,176 @@
 .contact-btn:hover {
   background-color: #08b8ea;
   color: #fff;
+}
+
+/* ///////////////////// */
+/* PROJECT TEMPLATE PAGE */
+/* ///////////////////// */
+
+.template-hero-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 2.6rem;
+}
+
+.template-hero-section .hero-common-description {
+  margin-bottom: 3.6rem;
+  /* border-bottom: 1px solid rgb(0, 0, 0, 0.1); */
+}
+
+.job-details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: start;
+
+  column-gap: 6.8rem;
+  row-gap: 2.4rem;
+
+  position: relative;
+}
+
+.template-hero--line {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150%;
+  height: 1px;
+  background-color: rgb(34, 34, 34, 0.1);
+}
+
+.job-details--title {
+  font-family: "Work Sans", sans-serif;
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin-top: 6.4rem;
+}
+.job-details--description {
+  font-size: 1.9rem;
+  font-weight: 400;
+  line-height: 24px;
+  align-self: self-start;
+}
+
+.main-img {
+  width: 100%;
+  aspect-ratio: auto;
+  margin-bottom: 20rem;
+}
+
+.template-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 12rem;
+}
+.template-container {
+  max-width: 110rem;
+}
+.section-title {
+  font-family: "Work Sans", sans-serif;
+  font-size: 3.8rem;
+  font-weight: 600;
+  text-align: center;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.1);
+  padding-bottom: 6.4rem;
+  margin-bottom: 3.7rem;
+}
+.section-description {
+  font-size: 1.9rem;
+  line-height: 28px;
+  text-align: center;
+
+  max-width: 65%;
+  margin: 0 auto;
+  /* margin-bottom: 9rem; */
+  margin-bottom: 3.2rem;
+}
+
+.tag-box {
+  max-width: 65%;
+  margin: 0 auto;
+  margin-bottom: 6.8rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.tag {
+  font-family: "Courier Prime", monospace;
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  border: 1px solid #000;
+  border-radius: 2.2rem;
+  padding: 0.8rem 1.2rem;
+}
+
+.section-img {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 5.5rem;
+}
+
+.details-box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 6rem;
+}
+
+.details-box .tag-box {
+  width: 60%;
+  flex-wrap: wrap;
+}
+
+.text-box {
+  margin-bottom: 6rem;
+}
+
+.template-container .details-box:not(:last-child) {
+  margin-bottom: 6rem;
+}
+
+.text-box--title {
+  width: 100%;
+  font-family: "Work Sans", sans-serif;
+  font-size: 2.7rem;
+  font-weight: 600;
+  margin-bottom: 2.4rem;
+}
+
+.text-box--description {
+  font-size: 1.6rem;
+  line-height: 24px;
+}
+
+.text-box--description {
+  font-size: 1.6rem;
+  line-height: 24px;
+
+  /* margin-bottom: 6rem; */
+}
+
+.double-imgs {
+  width: 80%;
+  margin: 0 auto;
+  padding: 4.6rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4.2rem;
+}
+
+.template-portfolio--title {
+  font-family: "Work Sans", sans-serif;
+  font-size: 3.8rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 4.2rem;
 }
