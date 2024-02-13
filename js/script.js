@@ -2,7 +2,8 @@ const btnNavEl = document.querySelector(".btn-mobile-nav");
 const headerEl = document.querySelector(".header");
 const sectionHeroEl =
   document.querySelector(".hero-section") ||
-  document.querySelector(".hero-common-section");
+  document.querySelector(".hero-common-section") ||
+  document.querySelector(".template-hero-section");
 
 const copyEmailBtn = document.querySelector(".contact-btn");
 
@@ -26,7 +27,6 @@ btnNavEl.addEventListener("click", function () {
 const obs = new IntersectionObserver(
   function (entries) {
     const ent = entries[0];
-    console.log(ent);
 
     if (ent.isIntersecting === false) {
       document.body.classList.add("sticky");
@@ -75,10 +75,11 @@ if (copyEmailBtn) {
 
 if (footerLogo) {
   footerLogo.addEventListener("mouseover", function () {
-    footerLogo.src = "./assets/footer/logotype-footer-hover.png";
+    footerLogo.src = "../assets/footer/logotype-footer-hover.png";
   });
 
   footerLogo.addEventListener("mouseout", function () {
-    footerLogo.src = "./assets/footer/logotype-footer.png";
+    // footerLogo.src = "./assets/footer/logotype-footer.png";
+    footerLogo.src = "../assets/footer/logotype-footer.png";
   });
 }

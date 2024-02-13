@@ -538,8 +538,10 @@
 
   margin-bottom: 12rem;
 }
+
 .template-container {
   max-width: 110rem;
+  padding: 0 2.6rem;
 }
 .section-title {
   font-family: "Work Sans", sans-serif;
@@ -547,7 +549,7 @@
   font-weight: 600;
   text-align: center;
   border-bottom: 1px solid rgb(0, 0, 0, 0.1);
-  padding-bottom: 6.4rem;
+  padding-bottom: 3.4rem;
   margin-bottom: 3.7rem;
 }
 .section-description {
@@ -562,13 +564,14 @@
 }
 
 .tag-box {
-  max-width: 65%;
+  max-width: 90%;
   margin: 0 auto;
   margin-bottom: 6.8rem;
 
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 1.2rem;
 }
 
@@ -612,6 +615,7 @@
   font-family: "Work Sans", sans-serif;
   font-size: 2.7rem;
   font-weight: 600;
+  line-height: 32px;
   margin-bottom: 2.4rem;
 }
 
@@ -630,7 +634,7 @@
 .double-imgs {
   width: 80%;
   margin: 0 auto;
-  padding: 4.6rem;
+  padding: 0 4.6rem;
 
   display: flex;
   align-items: center;

@@ -173,6 +173,10 @@
     background-color: rgba(34, 34, 34, 0.1);
     margin-bottom: 6.4rem;
   }
+
+  .template-container {
+    padding: 0 2.6rem;
+  }
 }
 
 /**************************/
@@ -259,6 +263,45 @@
 
   .job-year {
     margin-top: 3.2rem;
+  }
+
+  .template-section {
+    margin-bottom: 4rem;
+  }
+
+  .section-title {
+    font-size: 3.2rem;
+  }
+
+  .section-description {
+    font-size: 1.6rem;
+    line-height: 24px;
+
+    max-width: 90%;
+  }
+
+  .details-box {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .details-box .tag-box {
+    width: 100%;
+  }
+
+  .text-box {
+    margin-bottom: 2rem;
+  }
+
+  .double-imgs {
+    padding: 0 2.6rem;
+    width: 100%;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .double-imgs img {
+    margin-bottom: 0;
   }
 }
 
