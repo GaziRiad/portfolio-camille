@@ -26,6 +26,8 @@
       href="./assets/favicon/favicon-16x16.png"
     />
     <link rel="manifest" href="/site.webmanifest" />
+    <!--  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <link rel="stylesheet" href="./css/general.css" />
     <link rel="stylesheet" href="./css/style.css" />
@@ -39,6 +41,8 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <script defer src="js/script.js"></script>
     <title>Camille Brunette Design Portfolio</title>
   </head>
@@ -68,10 +72,18 @@
             src="./assets/hero/icon-hero.png"
             alt="Camille burnette portfolio hero icon"
           />
-          <p class="primary-heading">
+          <p
+            class="primary-heading"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          >
             Every great design starts with an even better story.
           </p>
-          <p class="hero-description">
+          <p
+            class="hero-description"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          >
             Hi, I’m Camille Brunette. I’m a highly skilled UX/Product Designer.
             If you’d like to embark on a journey together, solve problems and
             inspire people along the way,
@@ -82,7 +94,11 @@
         </div>
       </section>
       <!--  -->
-      <section class="projects-section">
+      <section
+        class="projects-section"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+      >
         <a class="project-box" href="./projects/first.html">
           <img
             class="project-img"
@@ -152,8 +168,10 @@
       </section>
       <section class="brands-section">
         <div class="container">
-          <p class="secondary-heading">Brands I’ve worked for</p>
-          <ul class="logos-list">
+          <p class="secondary-heading" data-aos="fade-left">
+            Brands I’ve worked for
+          </p>
+          <ul class="logos-list" data-aos="fade-left" data-aos-duration="1500">
             <li>
               <a href="#" target="_blank">
                 <img
@@ -209,7 +227,7 @@
       <section class="agencies-section">
         <div class="container">
           <p class="secondary-heading">Agencies I’ve worked for</p>
-          <ul class="logos-list">
+          <ul class="logos-list" data-aos="fade-left" data-aos-duration="1500">
             <li>
               <a href="#" target="_blank">
                 <img
@@ -252,8 +270,10 @@
             class="panel-img"
             src="./assets/page images/device-tantalum@2x.png"
             alt="Application design by camille burnette"
+            data-aos="fade-right"
+            data-aos-duration="1500"
           />
-          <div class="panel-box">
+          <div class="panel-box" data-aos="fade-left" data-aos-duration="1500">
             <p class="panel-title">Camille Brunette</p>
             <p class="panel-subtitle">UX/Product Designer (Lead)</p>
             <div class="panel-buttons">
@@ -331,5 +351,9 @@
         </div>
       </footer>
     </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

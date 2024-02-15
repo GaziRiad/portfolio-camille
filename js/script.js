@@ -5,8 +5,6 @@ const sectionHeroEl =
   document.querySelector(".hero-common-section") ||
   document.querySelector(".template-hero-section");
 
-const allSections = document.querySelectorAll("section, footer");
-
 const copyEmailBtn = document.querySelector(".contact-btn");
 
 const footerLogo = document.getElementById("footerImg");
@@ -86,27 +84,3 @@ if (footerLogo) {
     footerLogo.src = "../assets/footer/logotype-footer.png";
   });
 }
-
-// Reveal section on scroll
-
-const sectionReveal = function (entries, observer) {
-  const [entry] = entries;
-
-  // Guard clause
-  if (!entry.isIntersecting) return;
-
-  entry.target.classList.remove("section--hidden");
-  observer.unobserve(entry.target);
-};
-const sectionObserver = new IntersectionObserver(sectionReveal, {
-  root: null,
-  threshold: 0.15,
-});
-
-allSections.forEach((section) => {
-  sectionObserver.observe(section);
-  section.classList.add("section--hidden");
-  section.style.transition = "all 1s ease";
-});
-
-//////////////////////

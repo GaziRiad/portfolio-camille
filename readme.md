@@ -68,6 +68,14 @@
 
 9 - Overall, even without this the code is self explanatory.
 
-10 - If you want to stop scrolling animations, just comment the code of that feature from javascript file.
+10 - If you want to (add, modify, delete) animations just add this code to the element you want:
+
+    <div data-aos="fade-right" data-aos-duration="1000">
+      <span class="tag">Wireframes</span>
+      <span class="tag">Prototypes</span>
+    </div>
+
+-- so fade-direction & manipulate duration as needed.
+-- You can always check their library page: https://michalsnik.github.io/aos/
 
 See you next time 👋
