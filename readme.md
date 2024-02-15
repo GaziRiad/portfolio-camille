@@ -75,7 +75,6 @@
       <span class="tag">Prototypes</span>
     </div>
 
--- so fade-direction & manipulate duration as needed.
 -- You can always check their library page: https://michalsnik.github.io/aos/
 
 See you next time 👋
