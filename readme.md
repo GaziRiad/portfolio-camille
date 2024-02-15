@@ -75,6 +75,7 @@
       <span class="tag">Prototypes</span>
     </div>
 
+-- don't do fade-left, it my produce bugs.
 -- You can always check their library page: https://michalsnik.github.io/aos/
 
 See you next time 👋
