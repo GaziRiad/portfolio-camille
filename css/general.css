@@ -20,7 +20,7 @@ body {
 }
 
 .container {
-  max-width: 91rem;
+  max-width: 97rem;
   margin: 0 auto;
   padding: 0 2.6rem;
 }
@@ -61,6 +61,11 @@ body {
 
 .logos-list img {
   width: 10.6rem;
+  transition: all 0.3s;
+}
+
+.logos-list img:hover {
+  opacity: 0.5;
 }
 
 .text-link {
